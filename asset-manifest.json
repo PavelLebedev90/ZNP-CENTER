@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ZNP-CENTER/static/css/main.4720523c.css",
-    "main.js": "/ZNP-CENTER/static/js/main.93371ce7.js",
+    "main.js": "/ZNP-CENTER/static/js/main.488c647b.js",
     "static/js/787.28cb0dcd.chunk.js": "/ZNP-CENTER/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/ZNP-CENTER/index.html",
     "main.4720523c.css.map": "/ZNP-CENTER/static/css/main.4720523c.css.map",
-    "main.93371ce7.js.map": "/ZNP-CENTER/static/js/main.93371ce7.js.map",
+    "main.488c647b.js.map": "/ZNP-CENTER/static/js/main.488c647b.js.map",
     "787.28cb0dcd.chunk.js.map": "/ZNP-CENTER/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4720523c.css",
-    "static/js/main.93371ce7.js"
+    "static/js/main.488c647b.js"
   ]
 }
