@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ZNP-CENTER/static/css/main.4720523c.css",
+    "main.js": "/ZNP-CENTER/static/js/main.5fb87076.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ZNP-CENTER/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/ZNP-CENTER/index.html",
+    "main.4720523c.css.map": "/ZNP-CENTER/static/css/main.4720523c.css.map",
+    "main.5fb87076.js.map": "/ZNP-CENTER/static/js/main.5fb87076.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ZNP-CENTER/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4720523c.css",
+    "static/js/main.5fb87076.js"
+  ]
+}
