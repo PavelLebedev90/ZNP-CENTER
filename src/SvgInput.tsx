@@ -1,20 +1,18 @@
 import React from 'react';
 
 type SvgInputType = {
-    setOpen: (value:boolean)=>void
+    openDropList: ()=>void
     setModalIsOpen: (value:boolean)=>void
     clearInput: ()=>void
-    open: boolean
 }
 
-const SvgInput = ({setOpen, setModalIsOpen, clearInput, open}:SvgInputType) => {
+const SvgInput = ({openDropList, setModalIsOpen, clearInput}:SvgInputType) => {
     return (
-        <div className="wrapper-svg">
+        <div className="wrapper-svg" onClick={(e)=>e.stopPropagation()}>
             <svg className="arrow"
                  viewBox="0 0 24 24"
                  xmlns="http://www.w3.org/2000/svg"
-                 onClick={() => setOpen(!open)}
-            >
+                 onClick={openDropList}>
                 <path
                     d="M18.5303 9.46967C18.8232 9.76256 18.8232
                      10.2374 18.5303 10.5303L12.5303 16.5303C12.2374
