@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+.wrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper-input {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.input {
+    width: 300px;
+    height: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input:focus {
+    border-color: gray;
 }
 
-.App-link {
-  color: #61dafb;
+.wrapper-input img {
+    width: 5%;
+    cursor: pointer;
+    position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper-input svg {
+    width: 20%;
+    cursor: pointer;
+    position: absolute;
+    fill: gray;
+    transition: 200ms;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrowAfter {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 65%;
+    width: 1px;
+    height: 110%;
+    background-color: gray;
+}
+
+.arrow {
+    right: 75%;
+}
+
+.arrow:hover {
+    fill: black;
+}
+
+.list {
+    right: 3%
+}
+
+.list:hover {
+    fill: black;
+}
+
+.clearInput {
+    right: 35%;
+}
+
+.clearInput:hover {
+    fill: black;
+}
+
+.wrapper-svg {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: 4px;
+    background-color: white;
+}
+
+.dropdownList {
+    position: absolute;
+    top: 110%;
+    left: 2%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 77%;
+    background-color: rgba(220, 220, 220, 0.11);
+    overflow: scroll;
+}
+
+.dropdownList > li {
+    list-style: none;
+    padding: 2px;
+}
+
+.dropdownList > li:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+
+.wrapper-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    opacity: 0.35;
+    z-index: 20;
+}
+
+.modal {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 350px;
+    min-height: 250px;
+    background-color: white;
+    z-index: 21;
+    top: 50%;
+    left: 50%;
+    padding: 2px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
 }
