@@ -9,7 +9,7 @@ type SvgInputType = {
 
 const SvgInput = ({setOpen, setModalIsOpen, clearInput, open}:SvgInputType) => {
     return (
-        <div className="wrapper-svg" onClick={(e)=>e.stopPropagation()}>
+        <div className="wrapper-svg">
             <svg className="arrow"
                  viewBox="0 0 24 24"
                  xmlns="http://www.w3.org/2000/svg"

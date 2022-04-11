@@ -32,10 +32,7 @@ function App() {
     }
 
     return (
-        <div className="wrapper" onClick={()=> {
-            console.log('wrapper click')
-            setOpen(false)
-        }}>
+        <div className="wrapper">
             <div className="wrapper-input">
                 <input type="text"
                        className="input"
